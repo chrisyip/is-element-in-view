@@ -1,6 +1,6 @@
 {
   "name": "is-element-in-view",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Detect if element is in view",
   "main": "index.js",
   "scripts": {
