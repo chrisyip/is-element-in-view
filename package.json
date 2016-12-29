@@ -1,0 +1,29 @@
+{
+  "name": "is-element-in-view",
+  "version": "0.0.0",
+  "description": "Detect if element is in view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "clean": "rm -fr dist",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisyip/is-element-in-view.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisyip/is-element-in-view/issues"
+  },
+  "homepage": "https://github.com/chrisyip/is-element-in-view#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "clone": "^2.1.0",
+    "webpack": "^1.14.0"
+  }
+}
