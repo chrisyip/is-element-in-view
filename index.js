@@ -33,7 +33,7 @@ export default function isElementInView (element, parentElement) {
     throw TypeError('`element` requires a HTMLElement, but saw' + String(element))
   }
 
-  let top = botton = left = right = false
+  let top, botton, left, right, body
 
   const rect = element.getBoundingClientRect()
   const parentRect = getParentRect(parentElement)
